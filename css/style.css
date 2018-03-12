@@ -1,0 +1,142 @@
+* {
+  font: Roboto, Helvetica, Verdana;
+}
+
+a:link {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+
+  color: inherit;
+}
+
+a:active {
+  text-decoration: underline;
+
+  color: inherit;
+}
+
+header {
+  padding: 60px 0 60px 0;
+
+  background-color: #6ba;
+}
+
+hr {
+  border-color: #f44;
+}
+
+section {
+  padding: 50px 0 60px 0;
+}
+
+span:hover {
+  position: relative;
+}
+
+span[aria-label]:hover:after {
+  position: absolute;
+  z-index: 5000;
+  top: 900%;
+  left: 22%;
+
+  padding: 4px 8px;
+
+  content: attr(aria-label);
+  white-space: nowrap;
+
+  border-radius: 2px;
+  background: #6ba;
+}
+
+.btn-custom {
+  width: 180px !important;
+}
+
+.div-section-title {
+  padding-bottom: 15px;
+}
+
+.faint-text {
+  color: rgba(255,255,255,0.5)
+}
+
+.uni-logo {
+  height: 170px;
+}
+
+#div-github {
+  position: absolute;
+  bottom: 0;
+}
+
+#div-projects-text {
+  position: relative;
+}
+
+#education {
+  background-color: #ec3;
+}
+
+#header-div-image {
+  padding-left: 100px;
+}
+
+#header-img {
+  display: block;
+
+  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+#how-to-say-name-div {
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+}
+
+#intro-div-container {
+  position: relative;
+
+  display: table;
+
+  height: 300px;
+}
+
+#intro-div-text {
+  display: table-cell;
+
+  vertical-align: middle;
+}
+
+#mainNav {
+  background: rgba(0,0,0,0.05);
+}
+
+#projects {
+  padding-bottom: 0;
+
+  color: #fff;
+  background-color: #d45;
+}
+
+#skills-experience {
+  color: #fff;
+  background-color: #46d;
+}
+
+#upenn-logo {
+  margin-bottom: 50px;
+}
