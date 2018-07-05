@@ -92,9 +92,14 @@ span[aria-label]:hover:after {
   align-items: flex-start;
 }
 
-.shield-logo img {
+.shield-logo-top img {
   height: 170px;
   margin-bottom: 50px;
+}
+
+.shield-logo-bottom img {
+  height: 170px;
+  margin-bottom: 30px;
 }
 
 #div-github {
@@ -179,14 +184,16 @@ span[aria-label]:hover:after {
     padding-top: 30px;
   }
 
-  .shield-logo {
+  .shield-logo-top,
+  .shield-logo-bottom {
     position: absolute;
     right: 0;
     bottom: 0;
     width: auto;
   }
 
-  .shield-logo img {
+  .shield-logo-top img,
+  .shield-logo-bottom img {
     height: 60px;
     margin-bottom: 20px;
   }
