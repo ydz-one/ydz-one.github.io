@@ -1,2 +1,2 @@
 # zyud.github.io
-My personal website
+My personal website, viewable at http://zyud.me/
