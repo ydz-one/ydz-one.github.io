@@ -4,31 +4,26 @@
 
 a:link {
   text-decoration: none;
-
   color: inherit;
 }
 
 a:visited {
   text-decoration: none;
-
   color: inherit;
 }
 
 a:hover {
   text-decoration: underline;
-
   color: inherit;
 }
 
 a:active {
   text-decoration: underline;
-
   color: inherit;
 }
 
 header {
   padding: 60px 0 60px 0;
-
   background-color: #6ba;
 }
 
@@ -49,12 +44,9 @@ span[aria-label]:hover:after {
   z-index: 5000;
   top: 900%;
   left: 22%;
-
   padding: 4px 8px;
-
   content: attr(aria-label);
   white-space: nowrap;
-
   border-radius: 2px;
   background: #6ba;
 }
@@ -69,6 +61,25 @@ span[aria-label]:hover:after {
 
 .faint-text {
   color: rgba(255,255,255,0.5)
+}
+
+.header-img {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.how-to-say-name-div {
+  padding-top: 50px;
+}
+
+.intro-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .uni-logo {
@@ -88,36 +99,8 @@ span[aria-label]:hover:after {
   background-color: #ec3;
 }
 
-#header-div-image {
-  padding-left: 100px;
-}
-
-#header-img {
-  display: block;
-
-  width: 400px;
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
-}
-
-#how-to-say-name-div {
-  position: absolute;
-  bottom: 0;
-  left: 12px;
-}
-
-#intro-div-container {
-  position: relative;
-
-  display: table;
-
-  height: 300px;
-}
-
 #intro-div-text {
   display: table-cell;
-
   vertical-align: middle;
 }
 
@@ -127,7 +110,6 @@ span[aria-label]:hover:after {
 
 #projects {
   padding-bottom: 0;
-
   color: #fff;
   background-color: #d45;
 }
@@ -139,4 +121,22 @@ span[aria-label]:hover:after {
 
 #upenn-logo {
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .how-to-say-name-div {
+    padding-top: 20px;
+  }
+
+  .intro-text-container {
+    padding-top: 30px;
+  }
 }
