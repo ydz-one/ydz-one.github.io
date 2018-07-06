@@ -28,7 +28,7 @@ header {
 }
 
 hr {
-  border-color: #f44;
+  border-color: rgba(255,255,255,0.6);
 }
 
 section {
@@ -53,6 +53,59 @@ span[aria-label]:hover:after {
 
 .btn-custom {
   width: 180px !important;
+}
+
+.card {
+  background-color: rgba(0,0,0,0);
+  width: 260px;
+  height: 390px;
+  border-radius: 5px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 18px 25px -10px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0px 18px 25px -10px rgba(0,0,0,0.17);
+  box-shadow: 0px 18px 25px -10px rgba(0,0,0,0.17);
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+  
+.card-top {
+  color: #fff;
+  height: 75%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 30px;
+}
+
+.card-color1 {
+  background-color: #b91d73;
+}
+
+.card-color2 {
+  background-color: #cb16d0;
+}
+
+.card-color3 {
+  background-color: #9115c6;
+}
+
+.card-bottom {
+  background-color: #fff;
+  color: rgba(0,0,0,0.7);
+  height: 25%;
+  padding: 20px 30px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .div-section-title {
@@ -126,18 +179,17 @@ span[aria-label]:hover:after {
 }
 
 #mainNav {
-  background: rgba(0,0,0,0.05);
+  background-color: rgba(0,0,0,0.05);
 }
 
 #projects {
-  padding-bottom: 0;
-  color: #fff;
-  background-color: #d45;
+  color: #fff;;
+  background-color: #46d;
 }
 
 #skills-experience {
   color: #fff;
-  background-color: #46d;
+  background-color: #d45;
 }
 
 @media only screen and (max-width: 600px) {
