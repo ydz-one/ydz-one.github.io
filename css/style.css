@@ -55,6 +55,29 @@ span[aria-label]:hover:after {
   width: 180px !important;
 }
 
+.capsule {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin: 6px 2px 0 0;
+}
+
+.capsule-language {
+  background-color: rgb(199, 45, 18);
+}
+
+.capsule-framework {
+  background-color: rgb(238, 93, 112);
+}
+
+.capsule-concept {
+  background-color: #FC3AF5;
+}
+
+.capsule-software {
+  background-color: #C237F2;
+}
+
 .card {
   background-color: rgba(0,0,0,0);
   width: 260px;
@@ -158,6 +181,11 @@ span[aria-label]:hover:after {
 .shield-logo-bottom img {
   height: 170px;
   margin-bottom: 30px;
+}
+
+.skills {
+  padding-left: 10%;
+  padding-top: 30px;
 }
 
 #div-github {
