@@ -58,10 +58,6 @@ span[aria-label]:hover:after {
   margin: 6px 2px 0 0;
 }
 
-.capsule-group {
-  padding-right: 12%;
-}
-
 .capsule-language {
   background-color: #d45;
 }
@@ -193,8 +189,7 @@ span[aria-label]:hover:after {
 }
 
 .skills {
-  padding-left: 10%;
-  padding-top: 30px;
+  padding: 30px 10% 0;
 }
 
 #div-github {
@@ -254,6 +249,10 @@ span[aria-label]:hover:after {
     margin: 0 auto 0.5rem;
   }
 
+  .intro-text h2 {
+    padding-right: 0;
+  }
+
   .plain-text-row {
     position: relative;
     width: 100%;
@@ -295,5 +294,9 @@ span[aria-label]:hover:after {
     height: 60px;
     margin-bottom: 20px;
     padding-left: 0;
+  }
+
+  .skills {
+    padding: 20px 15px 0;
   }
 }
