@@ -160,6 +160,19 @@ span[aria-label]:hover:after {
   padding-right: 15%;
 }
 
+.navbar {
+  background-color: rgba(0,0,0,0.05);
+  padding-right: 12%;
+}
+
+.navbar .container .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
+
+.navbar .container .navbar-toggler:focus {
+  outline: 1px solid rgba(0,0,0,0);
+}
+
 .plain-text-row {
   padding-left: 10%;
 }
@@ -210,13 +223,13 @@ span[aria-label]:hover:after {
   vertical-align: middle;
 }
 
-#mainNav {
-  background-color: rgba(0,0,0,0.05);
-}
-
 #projects {
   color: #fff;;
   background-color: #46d;
+}
+
+#projects a {
+  text-decoration: none;
 }
 
 #experience {
