@@ -232,6 +232,17 @@ span[aria-label]:hover:after {
   text-decoration: none;
 }
 
+#projects .github-link {
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: auto;
+  padding-right: 10%;
+  margin-bottom: -20px;
+}
+
+#projects .github-link:hover {
+  text-decoration: underline;
+}
+
 #experience {
   color: #fff;
   background-color: #d45;
@@ -311,5 +322,10 @@ span[aria-label]:hover:after {
 
   .skills {
     padding: 20px 15px 0;
+  }
+
+  #projects .github-link {
+    padding-right: 0;
+    margin: 5px auto -20px;
   }
 }
