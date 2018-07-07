@@ -18,6 +18,10 @@ a:active {
   color: inherit;
 }
 
+footer {
+  background-color:	#4646dd;
+}
+
 header {
   padding: 60px 0 60px 0;
   background-color: #6ba;
@@ -54,7 +58,7 @@ span[aria-label]:hover:after {
 .capsule {
   display: inline-block;
   padding: 5px 20px;
-  border-radius: 20px;
+  border-radius: 50px;
   margin: 6px 2px 0 0;
 }
 
@@ -134,6 +138,36 @@ span[aria-label]:hover:after {
 
 .faint-text {
   color: rgba(255,255,255,0.5)
+}
+
+.footer-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 0 7px 0;
+  text-align: center;
+}
+
+.footer-btn-color1 {
+  border: 1px solid	#46ddb7;
+  color: #46ddb7;
+}
+
+.footer-btn-color1:hover,
+.footer-btn-color1:focus {
+  background-color: #46ddb7;
+  color: #4646dd;
+}
+
+.footer-btn-color2 {
+  border: 1px solid	#dddd46;
+  color: #dddd46;
+}
+
+.footer-btn-color2:hover,
+.footer-btn-color2:focus {
+  background-color: #dddd46;
+  color: #4646dd;
 }
 
 .header-img {
