@@ -62,20 +62,16 @@ span[aria-label]:hover:after {
   margin: 6px 2px 0 0;
 }
 
-.capsule-frontend {
-  background-color: #d45;
+.capsule-cs {
+  background-color: #46d;
+}
+
+.capsule-web {
+  background-color: #ec3;
 }
 
 .capsule-concept {
   background-color: #e5408D;
-}
-
-.capsule-backend {
-  background-color: #ec3;
-}
-
-.capsule-design {
-  background-color: #46d;
 }
 
 .card {
