@@ -1,2 +1,3 @@
-# zyud.github.io
-My personal website, viewable at http://zyud.me/
+# ydz-one.github.io
+
+My personal website, viewable at http://ydz.one
