@@ -27,6 +27,10 @@ header {
     background-color: #6ba;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 hr {
     border-color: rgba(255, 255, 255, 0.6);
 }
