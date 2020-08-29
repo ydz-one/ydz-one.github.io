@@ -22,11 +22,6 @@ footer {
     background-color: #4646dd;
 }
 
-header {
-    padding: 60px 0 60px 0;
-    background-color: #6ba;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -36,7 +31,8 @@ hr {
 }
 
 section {
-    padding: 50px 0 60px 0;
+    padding: 100px 0;
+    height: 100vh;
 }
 
 span:hover {
@@ -55,6 +51,10 @@ span[aria-label]:hover:after {
     background: #6ba;
 }
 
+.bio {
+    padding-top: 20px;
+}
+
 .btn-custom {
     width: 180px !important;
 }
@@ -71,7 +71,7 @@ span[aria-label]:hover:after {
 }
 
 .capsule-web {
-    background-color: #ec3;
+    background-color: #e5408d;
 }
 
 .capsule-meta {
@@ -79,7 +79,7 @@ span[aria-label]:hover:after {
 }
 
 .capsule-design {
-    background-color: #e5408d;
+    background-color: #ec3;
 }
 
 .card {
@@ -154,37 +154,18 @@ span[aria-label]:hover:after {
 
 .footer-btn-color1 {
     border: 1px solid #46ddb7;
-    color: #46ddb7;
-}
-
-.footer-btn-color1:hover,
-.footer-btn-color1:focus {
     background-color: #46ddb7;
     color: #4646dd;
 }
 
 .footer-btn-color2 {
     border: 1px solid #dddd46;
-    color: #dddd46;
-}
-
-.footer-btn-color2:hover,
-.footer-btn-color2:focus {
     background-color: #dddd46;
     color: #4646dd;
 }
 
-.header-img {
-    display: block;
-    height: 360px;
-    width: 360px;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-}
-
-.how-to-say-name-div {
-    padding-top: 50px;
+.intro-image {
+    text-align: center;
 }
 
 .intro-text-container {
@@ -220,6 +201,15 @@ span[aria-label]:hover:after {
     margin-left: 40px;
 }
 
+.portrait {
+    display: block;
+    height: 360px;
+    width: 360px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
 .shield-logo-top,
 .shield-logo-bottom {
     padding-left: 50px;
@@ -237,6 +227,11 @@ span[aria-label]:hover:after {
 
 .skills {
     padding: 30px 10% 0;
+}
+
+#about {
+    padding: 60px 0 60px 0;
+    background-color: #6ba;
 }
 
 #div-github {
@@ -297,6 +292,11 @@ span[aria-label]:hover:after {
 
     h5 {
         font-size: 1.1rem;
+    }
+
+    section {
+        padding: 60px 0;
+        height: fit-content;
     }
 
     .div-section-title {

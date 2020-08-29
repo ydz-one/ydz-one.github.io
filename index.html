@@ -26,6 +26,9 @@
   </script>
   <script src="vendor/bootstrap/js/bootstrap.min.js" defer>
   </script>
+  
+  <!-- Custom script -->
+  <script src="js/script.js" defer></script>
 
   <title>Yuduo 'YD' Zhao</title>
 
@@ -42,17 +45,22 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">
+            <a class="nav-link" href="#about">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">
               Experience
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">
+            <a class="nav-link" href="#education">
               Education
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">
+            <a class="nav-link" href="#projects">
               Projects
             </a>
           </li>
@@ -71,7 +79,7 @@
     </div>
   </nav>
 
-  <header class="text-white">
+  <section id="about" class="text-white">
     <div class="container">
       <div class="row intro-row">
         <div class="col-xs-12 col-md-5 intro-image">
@@ -79,11 +87,13 @@
         </div>
         <div class="col-xs-12 col-md-7 container intro-text-container">
           <div>
-            <h1>Hi, I'm Yuduo Zhao*</h1>
-            <h2><em>An app developer at Oracle!</em></h2>
+            <h1>Hi, I'm YD</h1>
+            <h2><em>Developer at Oracle | UPenn CS Master '19</em></h2>
           </div>
-          <div class="how-to-say-name-div">
-            <p>*You can call me YD.</p>
+          <div class="bio">
+            <p>I'm a generalist software engineer who has been programming professionally since 2019, and for fun since 2009.</p>
+            <p>I have a master's degree in both computer science and architectural engineering.</p>
+            <p>Having lived on three different continents, I consider myself an effective intercultural communicator with expert understanding of African, Eastern, and Western cultures.</p>
           </div>
         </div>
       </div>
@@ -102,18 +112,26 @@
             <div class="capsule capsule-web">HTML5</div>
             <div class="capsule capsule-web">CSS3</div>
             <div class="capsule capsule-web">Bootstrap</div>
+            <div class="capsule capsule-web">jQuery</div>
             <div class="capsule capsule-meta">Git</div>
             <div class="capsule capsule-meta">Linux</div>
+            <div class="capsule capsule-meta">Docker</div>
+            <div class="capsule capsule-meta">AWS</div>
             <div class="capsule capsule-meta">Jira</div>
+            <div class="capsule capsule-meta">Confluence</div>
             <div class="capsule capsule-meta">Jenkins</div>
             <div class="capsule capsule-meta">Scrum</div>
             <div class="capsule capsule-design">Figma</div>
-            <div class="capsule capsule-design">Photoshop</div>
+            <div class="capsule capsule-design">3ds Max</div>
+            <div class="capsule capsule-design">Revit</div>
+            <div class="capsule capsule-design">AutoCAD</div>
+            <div class="capsule capsule-design">BlueBeam</div>
+            <div class="capsule capsule-design">Adobe CC</div>
           </div>
         </div>
       </div>
     </div>
-  </header>
+  </section>
 
   <section id="experience">
     <div class="container">
@@ -131,8 +149,9 @@
             </h5>
             <h5>Jul 2019 - Present</h5>
             <ul>
-              <li>Investigate and resolve critical issues in an enterprise web app written in Java and JavaScript</li>
-              <li>Implement loosely-coupled unit formatter system across major app pages</li>
+              <li>Led daily standups as the Scrum Master of a squad of six developers/QA/BA</li>
+              <li>Implemented server-side and client-side multi-currency support in an AEC project management app hosted on Oracle Cloud Infrastructure (OCI)</li>
+              <li>Investigated and resolved critical issues in an enterprise-scale Java and JavaScript code base</li>
             </ul>
           </div>
           <div class="mb-4 mb-sm-0">
@@ -144,8 +163,7 @@
             </h5>
             <h5>Aug 2018 - May 2019</h5>
             <ul>
-              <li>Classes: Introduction to Software Development, Mathematical Foundations of Computer Science,</li>
-              <li>Topics: OOP, data structures, software design, software testing, graph theory, trees, probability, logic, proofs, induction and recursion</li>
+              <li>Topics Taught: OOP, data structures, software design, software testing, graph theory, trees, probability, logic, proofs, induction and recursion</li>
             </ul>
           </div>
         </div>
@@ -162,6 +180,7 @@
               <li>Won the Wharton Startup Internship Award</li>
               <li>Sketched and designed web app UI in Adobe XD and implemented it in React</li>
               <li>Implemented educator progress report review system with Node.js</li>
+              <li>Implemented customer login, registration, and onboarding flow</li>
             </ul>
           </div>
           <div>
@@ -173,7 +192,7 @@
             </h5>
             <h5>Jan 2015 - Apr 2017</h5>
             <ul>
-              <li>Conducted sales calls and organize meetings with architects and engineers </li>
+              <li>Conducted sales calls and organize meetings with architects and engineers </li>
               <li>Managed the lighting applications engineering team</li>
             </ul>
           </div>
@@ -265,20 +284,20 @@
           </div>
         </a>
 
-        <a href="https://github.com/ydz-one/my-reads" target="_blank" rel="noopener noreferrer">
+        <a href="#projects" onClick="alert('Source code available upon request')" rel="noopener noreferrer">
           <div class="card">
             <div class="card-top card-color2">
               <div class="text-center">
-                <strong>MyReads</strong><br>
-                Jun 2018
+                <strong>Graham Search Engine</strong><br>
+                Apr 2019 - May 2019
               </div>
               <hr>
               <div>
-                Web app that keeps track of books being sorted into three shelves and allows them to be removed and added by search via a backend API.
+                A Google-like search engine with over 1 million indexed pages, consisting of a distributed crawler, indexer, PageRank, and React frontend.
               </div>
             </div>
             <div class="card-bottom">
-              JavaScript, React
+              JavaScript, Java, React, Docker, Spark, AWS
             </div>
           </div>
         </a>
@@ -320,7 +339,7 @@
         <div class="mr-3 text-center text-white">
           Interested in connecting with me?
         </div>
-        <a href="mailto:yuduozhao@gmail.com">
+        <a href="mailto:ydzhao@hey.com">
           <div class="footer-btn footer-btn-color1">
             Shoot me an email
           </div>
