@@ -297,6 +297,7 @@ span[aria-label]:hover:after {
     section {
         padding: 60px 0;
         height: fit-content;
+        height: -moz-max-content;
     }
 
     .div-section-title {
