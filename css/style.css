@@ -346,9 +346,7 @@ span[aria-label]:hover:after {
 
     .shield-logo-top img,
     .shield-logo-bottom img {
-        height: 60px;
-        margin-bottom: 20px;
-        padding-left: 0;
+        display: none;
     }
 
     .skills {
