@@ -66,19 +66,19 @@ span[aria-label]:hover:after {
     margin: 6px 2px 0 0;
 }
 
-.capsule-cs {
+.capsule.language {
     background-color: #46d;
 }
 
-.capsule-web {
+.capsule.web {
     background-color: #e5408d;
 }
 
-.capsule-meta {
+.capsule.tool {
     background-color: #078080;
 }
 
-.capsule-design {
+.capsule.design {
     background-color: #ec3;
 }
 
